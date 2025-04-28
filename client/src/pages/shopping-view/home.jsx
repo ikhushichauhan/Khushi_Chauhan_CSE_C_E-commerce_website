@@ -7,15 +7,17 @@ import {
   BabyIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
-  CloudLightning,
-  Heater,
+  Coffee,
+  Cookie,
+  IceCream,
   Images,
-  Shirt,
+  Milk,
+  Salad,
   ShirtIcon,
   ShoppingBasket,
-  UmbrellaIcon,
+  Shirt,
+  Heater,
   WashingMachine,
-  WatchIcon,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
@@ -32,11 +34,11 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { getFeatureImages } from "@/store/common-slice";
 
 const categoriesWithIcon = [
-  { id: "men", label: "Men", icon: ShirtIcon },
-  { id: "women", label: "Women", icon: CloudLightning },
-  { id: "kids", label: "Kids", icon: BabyIcon },
-  { id: "accessories", label: "Accessories", icon: WatchIcon },
-  { id: "footwear", label: "Footwear", icon: UmbrellaIcon },
+  { id: "drinks", label: "Drinks", icon: Coffee },
+  { id: "snacks", label: "Snacks", icon: Cookie },
+  { id: "desert", label: "Desert", icon: IceCream },
+  { id: "dairy", label: "Dairy", icon: Milk },
+  { id: "diet food", label: "Diet Food", icon: Salad },
 ];
 
 const brandsWithIcon = [
@@ -184,24 +186,7 @@ function ShoppingHome() {
         </div>
       </section>
 
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Shop by Brand</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {brandsWithIcon.map((brandItem) => (
-              <Card
-                onClick={() => handleNavigateToListingPage(brandItem, "brand")}
-                className="cursor-pointer hover:shadow-lg transition-shadow"
-              >
-                <CardContent className="flex flex-col items-center justify-center p-6">
-                  <brandItem.icon className="w-12 h-12 mb-4 text-primary" />
-                  <span className="font-bold">{brandItem.label}</span>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       <section className="py-12">
         <div className="container mx-auto px-4">

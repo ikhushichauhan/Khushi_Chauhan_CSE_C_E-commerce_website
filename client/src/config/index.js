@@ -58,26 +58,14 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "drinks", label: "Drinks" },
+      { id: "snacks", label: "Snacks" },
+      { id: "desert", label: "Desert" },
+      { id: "dairy", label: "Dairy" },
+      { id: "diet food", label: "Diet Food" },
     ],
   },
-  {
-    label: "Brand",
-    name: "brand",
-    componentType: "select",
-    options: [
-      { id: "nike", label: "Nike" },
-      { id: "adidas", label: "Adidas" },
-      { id: "puma", label: "Puma" },
-      { id: "levi", label: "Levi's" },
-      { id: "zara", label: "Zara" },
-      { id: "h&m", label: "H&M" },
-    ],
-  },
+
   {
     label: "Price",
     name: "price",
@@ -113,28 +101,28 @@ export const shoppingViewHeaderMenuItems = [
     path: "/shop/listing",
   },
   {
-    id: "men",
-    label: "Men",
+    id: "drinks",
+    label: "Drinks",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "snacks",
+    label: "Snacks",
     path: "/shop/listing",
   },
   {
-    id: "kids",
-    label: "Kids",
+    id: "desert",
+    label: "Desert",
     path: "/shop/listing",
   },
   {
-    id: "footwear",
-    label: "Footwear",
+    id: "dairy",
+    label: "Dairy",
     path: "/shop/listing",
   },
   {
-    id: "accessories",
-    label: "Accessories",
+    id: "diet food",
+    label: "Diet Food",
     path: "/shop/listing",
   },
   {
@@ -145,11 +133,11 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
-  accessories: "Accessories",
-  footwear: "Footwear",
+  drinks: "Drinks",
+  snacks: "Snacks",
+  desert: "Desert",
+  dairy: "Dairy",
+  diet: "Diet Food",
 };
 
 export const brandOptionsMap = {
@@ -163,19 +151,11 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
-  ],
-  brand: [
-    { id: "nike", label: "Nike" },
-    { id: "adidas", label: "Adidas" },
-    { id: "puma", label: "Puma" },
-    { id: "levi", label: "Levi's" },
-    { id: "zara", label: "Zara" },
-    { id: "h&m", label: "H&M" },
+    { id: "drinks", label: "Drinks" },
+    { id: "snacks", label: "Snacks" },
+    { id: "desert", label: "Desert" },
+    { id: "dairy", label: "Dairy" },
+    { id: "diet food", label: "Diet Food" },
   ],
 };
 
