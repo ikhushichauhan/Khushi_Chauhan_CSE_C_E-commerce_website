@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "http://localhost:5173/shop/paypal-return",
-        cancel_url: "http://localhost:5173/shop/paypal-cancel",
+        return_url: `${process.env.CLIENT_URL}/shop/paypal-return`,
+        cancel_url: `${process.env.CLIENT_URL}/shop/paypal-cancel`,
       },
       transactions: [
         {
@@ -51,7 +51,6 @@ const createOrder = async (req, res) => {
 
     paypal.payment.create(create_payment_json, async (error, paymentInfo) => {
       if (error) {
-        console.log(error);
 
         return res.status(500).json({
           success: false,
@@ -87,7 +86,6 @@ const createOrder = async (req, res) => {
       }
     });
   } catch (e) {
-    console.log(e);
     res.status(500).json({
       success: false,
       message: "Some error occured!",
@@ -139,7 +137,6 @@ const capturePayment = async (req, res) => {
       data: order,
     });
   } catch (e) {
-    console.log(e);
     res.status(500).json({
       success: false,
       message: "Some error occured!",
@@ -165,7 +162,6 @@ const getAllOrdersByUser = async (req, res) => {
       data: orders,
     });
   } catch (e) {
-    console.log(e);
     res.status(500).json({
       success: false,
       message: "Some error occured!",
@@ -191,7 +187,6 @@ const getOrderDetails = async (req, res) => {
       data: order,
     });
   } catch (e) {
-    console.log(e);
     res.status(500).json({
       success: false,
       message: "Some error occured!",
