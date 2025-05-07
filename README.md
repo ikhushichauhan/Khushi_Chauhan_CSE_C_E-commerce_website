@@ -70,7 +70,7 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 
 ## 🧪 Demo
 
-Try the live version here: [🌐 fizzycrave.onrender.com](https://fizzycrave.onrender.com)
+Try the live version here: [🌐 fizzycrave.onrender.com](https://fizzycrave.onrender.com/auth/login)
 
 ---
 
