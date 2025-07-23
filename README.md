@@ -10,8 +10,8 @@
 |-------------------|--------------------|
 | Akanksha Kumari   | Project Manager    |
 | Preeti Chaurasiya | UI/UX Designer     |
-| Payal Tanwar      | Frontend Developer |
-| Khushi Chauhan    | Backend Developer  |
+| Payal Tanwar      | Backend Developer |
+| Khushi Chauhan    | Frontend Developer  |
 
 **Under the Guidance of:** Aman Jatain  
 **Program:** BCA (AI & DS), SOET
@@ -27,13 +27,13 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 - 🧭 A clean and responsive dashboard
 
 ---
+## 🔧 Tech Stack
 
-## 🧰 Technologies Used
-
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js  
-- **Database:** MongoDB  
-- **Hosting:** Render.com
+- Frontend: React + Vite + Tailwind CSS
+- Backend: Express.js + MongoDB
+- Authentication: JWT
+- Payments: PayPal
+- Cloudinary for image upload
 
 ---
 
