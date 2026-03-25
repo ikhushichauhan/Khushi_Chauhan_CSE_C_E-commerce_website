@@ -1,10 +1,10 @@
-# 🧾 Fizzy Crave – Inventory Management System
+#  Fizzy Crave – Inventory Management System
 
 **Fizzy Crave** is a web-based inventory management system tailored for small-scale businesses in the **food and beverage industry**. This project aims to digitize and simplify inventory operations by offering an intuitive platform for managing stock, placing orders, and monitoring inventory in real-time.
 
 ---
 
-## 👩‍💻 Team Members
+##  Team Members
 
 | Name              | Role               |
 |-------------------|--------------------|
@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Managing inventory efficiently is crucial for any product-based business. Fizzy Crave was developed to eliminate the hassles of manual inventory handling—minimizing stockouts, overstocking, and wastage. The system ensures smooth operations through features like:
 
@@ -27,7 +27,7 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 - 🧭 A clean and responsive dashboard
 
 ---
-## 🔧 Tech Stack
+##  Tech Stack
 
 - Frontend: React + Vite + Tailwind CSS
 - Backend: Express.js + MongoDB
@@ -37,7 +37,7 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 
 ---
 
-## 🚀 Features
+##  Features
 
 - 🛒 Browse and order products by category (Drinks, Snacks, Diet Food, Desserts, Dairy)
 - 🧾 Add/Edit/Delete inventory items
@@ -49,7 +49,7 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 
 ---
 
-## 📦 System Flow
+##  System Flow
 
 1. **User Registration/Login**  
    - New users sign up with name, email, and password.  
@@ -68,7 +68,7 @@ Managing inventory efficiently is crucial for any product-based business. Fizzy 
 
 ---
 
-## 🧪 Demo
+##  Demo
 
 Try the live version here: [🌐 fizzycrave.onrender.com](https://fizzycrave.onrender.com/auth/login)
 
@@ -87,7 +87,7 @@ These features will make inventory handling smarter and more scalable.
 
 ---
 
-## 🙏 Thank You
+##  Thank You
 
 We hope Fizzy Crave contributes toward efficient stock management for food & beverage startups and small-scale businesses.
 
